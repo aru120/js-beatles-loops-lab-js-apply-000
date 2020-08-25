@@ -16,13 +16,14 @@ function theBeatlesPlay (musician,instrument){
   "He was a choir boy and boy scout",
   "He hated the sound of his own voice"
 ];
+const excla = [];
 
 function johnLennonFacts (facts){
  let i=0;
- const excla = [];
+ 
  while (facts.length < i){
-    excla[i] = facts[i]+"!!!";
-    
+   const str = facts[i]+"!!!";
+    excla.push(str)
  }
  return excla;
 }
