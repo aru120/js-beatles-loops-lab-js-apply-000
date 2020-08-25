@@ -16,7 +16,7 @@ function theBeatlesPlay (musician,instrument){
   "He was a choir boy and boy scout",
   "He hated the sound of his own voice"
 ];
-const excla = [];
+
 
 function johnLennonFacts (facts){
  let i=0;
