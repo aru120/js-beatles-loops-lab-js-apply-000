@@ -21,11 +21,11 @@ function theBeatlesPlay (musician,instrument){
 function johnLennonFacts (facts){
  let i=0;
  const finish =[];
- while (facts.length < i){
-   finish.push(facts.[i] + "!!!");
+ while (i < facts.length){
+   finish.push(facts[i] + "!!!");
    i++;
  }
- return finish;
+return finish;
 }
 
 
