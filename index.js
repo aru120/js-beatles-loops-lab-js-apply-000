@@ -20,12 +20,12 @@ function theBeatlesPlay (musician,instrument){
 
 function johnLennonFacts (facts){
  let i=0;
- 
+ const finish =[];
  while (facts.length < i){
-   const str = facts[i]+"!!!";
-    excla.push(str)
+   finish.push(facts.[i] + "!!!");
+   i++;
  }
- return excla;
+ return finish;
 }
 
 
