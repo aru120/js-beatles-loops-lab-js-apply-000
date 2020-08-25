@@ -19,11 +19,12 @@ function theBeatlesPlay (musician,instrument){
 
 function johnLennonFacts (facts){
  let i=0;
+ const excla = [];
  while (facts.length < i){
-    facts[i] = facts[i]+"!!!";
+    excla[i] = facts[i]+"!!!";
     
  }
- return facts;
+ return excla;
 }
 
 
